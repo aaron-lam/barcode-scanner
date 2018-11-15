@@ -1,0 +1,14 @@
+//
+// Created by Aaron Lam on 11/15/18.
+//
+
+#ifndef BARCODESCANNER_BINARYSEARCHTREE_H
+#define BARCODESCANNER_BINARYSEARCHTREE_H
+
+
+class BinarySearchTree {
+
+};
+
+
+#endif //BARCODESCANNER_BINARYSEARCHTREE_H
