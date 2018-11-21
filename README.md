@@ -49,3 +49,4 @@ Time taken of searching 1000 times in array: 40189495 milliseconds
 
 # Time analysis
 Here is the result of time performance.
+![image](https://user-images.githubusercontent.com/23665164/48855480-fbb31780-ed68-11e8-8afc-c84b967a8330.png)
