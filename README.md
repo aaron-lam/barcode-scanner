@@ -52,4 +52,4 @@ Here is the result of time performance.
 
 <img width="800" alt="time performance graph" src="https://user-images.githubusercontent.com/23665164/48858412-28b6f880-ed70-11e8-8b33-4e8b7fb7a925.png">
 
-As we can see, the time complexity of finding barcode in an array is O(N), and the time complexity of finding barcode in a binary search tree is O(log(N)).
+As the graph shown, the time complexity of finding barcode in an array is O(N), and the time complexity of finding barcode in a binary search tree is O(log(N)).
