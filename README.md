@@ -1,12 +1,12 @@
-## BarcodeScanner
+# BarcodeScanner
 
 BarcodeScanner is an application for searching barcode with upc number.
 
 We use this application to test the time performance of two data structures, array and binary search tree.
 
-## Getting Started
+# Getting Started
 
-# Run Application
+## Run Application
 
 1. Please copy and paste the following command line in your terminal to build the project.
 ```
@@ -18,7 +18,7 @@ g++ BarcodeScannerTest.cpp BinarySearchTree.cpp BinarySearchTree.h Array.cpp Arr
 ./BarcodeScannerTest [enter_input_file_path_here] (ex: ./BarcodeScannerTest /home/user/cs300_4/upc_corpus.txt)
 ```
 
-# Run Performance Test
+## Run Performance Test
 
 1. Please copy and paste the following command line in your terminal to build the project.
 ```
@@ -47,5 +47,5 @@ Time taken of searching 1000 times in BST:   14802977 milliseconds
 Time taken of searching 1000 times in array: 40189495 milliseconds
 ```
 
-## Time analysis
+# Time analysis
 Here is the result of time performance.
