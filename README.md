@@ -47,7 +47,7 @@ Time taken of searching 1000 times in BST:   14802977 milliseconds
 Time taken of searching 1000 times in array: 40189495 milliseconds
 ```
 
-# Time analysis
+# Data Structure Performance Analysis
 Here is the result of time performance.
 
 <img width="800" alt="time performance graph" src="https://user-images.githubusercontent.com/23665164/48858412-28b6f880-ed70-11e8-8b33-4e8b7fb7a925.png">
