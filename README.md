@@ -79,6 +79,6 @@ Time taken of searching 1000 times in array: 25274853 milliseconds
 # Data Structure Performance Analysis
 Here is the result of time performance.
 
-<img width="800" alt="time performance graph" src="https://user-images.githubusercontent.com/23665164/48858412-28b6f880-ed70-11e8-8b33-4e8b7fb7a925.png">
+<img width="800" alt="time performance graph BST" src="https://user-images.githubusercontent.com/23665164/49344548-b37bdb00-f62d-11e8-9923-640a0614dc1b.png">
 
-As the graph shown, the time complexity of finding barcode in an array is O(N), and the time complexity of finding barcode in a binary search tree is O(log(N)).
+<img width="800" alt="time performance graph Array" src="https://user-images.githubusercontent.com/23665164/49344549-b37bdb00-f62d-11e8-8f5b-8a04b63310f6.png">
