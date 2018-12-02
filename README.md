@@ -10,7 +10,7 @@ We use this application to test the time performance of two data structures, arr
 
 1. Please copy and paste the following command line in your terminal to build the project.
 ```
-g++ BarcodeScannerTest.cpp BinarySearchTree.cpp BinarySearchTree.h Array.cpp Array.h Barcode.cpp Barcode.h BarcodeArrayScanner.cpp BarcodeArrayScanner.h BarcodeBSTScanner.cpp BarcodeBSTScanner.h -o BarcodeScannerTest
+g++ BarcodeScannerTest.cpp BinarySearchTree.cpp Array.cpp Barcode.cpp BarcodeArrayScanner.cpp BarcodeBSTScanner.cpp -o BarcodeScannerTest
 ```
 
 2. Then run the application with the text file path specified
@@ -22,7 +22,7 @@ g++ BarcodeScannerTest.cpp BinarySearchTree.cpp BinarySearchTree.h Array.cpp Arr
 
 1. Please copy and paste the following command line in your terminal to build the project.
 ```
-g++ ArrayAndBSTPerformance.cpp BinarySearchTree.cpp BinarySearchTree.h Array.cpp Array.h Barcode.cpp Barcode.h BarcodeArrayScanner.cpp BarcodeArrayScanner.h BarcodeBSTScanner.cpp BarcodeBSTScanner.h -o ArrayAndBSTPerformance`
+g++ ArrayAndBSTPerformance.cpp BinarySearchTree.cpp Array.cpp Barcode.cpp BarcodeArrayScanner.cpp BarcodeBSTScanner.cpp -o ArrayAndBSTPerformance
 ```
 
 2. Then run the application with the text file path specified
