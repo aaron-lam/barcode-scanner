@@ -34,17 +34,46 @@ You will see the performance test result after running the test:
 ```
 Loading file... Please wait.
 
-Now search 10 times:
-Time taken of searching 10 times in BST:   11500305 milliseconds
-Time taken of searching 10 times in array: 11794052 milliseconds
-
 Now search 100 times:
-Time taken of searching 100 times in BST:   11794596 milliseconds
-Time taken of searching 100 times in array: 14799054 milliseconds
+Time taken of searching 100 times in BST:   315 milliseconds
+Time taken of searching 100 times in array: 2991864 milliseconds
+
+Now search 200 times:
+Time taken of searching 200 times in BST:   616 milliseconds
+Time taken of searching 200 times in array: 5984024 milliseconds
+
+Now search 300 times:
+Time taken of searching 300 times in BST:   1136 milliseconds
+Time taken of searching 300 times in array: 9099442 milliseconds
+
+Now search 400 times:
+Time taken of searching 400 times in BST:   1477 milliseconds
+Time taken of searching 400 times in array: 11460447 milliseconds
+
+Now search 500 times:
+Time taken of searching 500 times in BST:   1621 milliseconds
+Time taken of searching 500 times in array: 13938310 milliseconds
+
+Now search 600 times:
+Time taken of searching 600 times in BST:   2078 milliseconds
+Time taken of searching 600 times in array: 16484603 milliseconds
+
+Now search 700 times:
+Time taken of searching 700 times in BST:   1867 milliseconds
+Time taken of searching 700 times in array: 18344636 milliseconds
+
+Now search 800 times:
+Time taken of searching 800 times in BST:   2125 milliseconds
+Time taken of searching 800 times in array: 20799212 milliseconds
+
+Now search 900 times:
+Time taken of searching 900 times in BST:   2415 milliseconds
+Time taken of searching 900 times in array: 23065105 milliseconds
 
 Now search 1000 times:
-Time taken of searching 1000 times in BST:   14802977 milliseconds
-Time taken of searching 1000 times in array: 40189495 milliseconds
+Time taken of searching 1000 times in BST:   2493 milliseconds
+Time taken of searching 1000 times in array: 25274853 milliseconds
+
 ```
 
 # Data Structure Performance Analysis
