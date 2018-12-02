@@ -35,7 +35,7 @@ int main(int argc, char** argv) {
     testPerformance(arrayScanner, bstScanner, list, 10);
     testPerformance(arrayScanner, bstScanner, list, 100);
     testPerformance(arrayScanner, bstScanner, list, 1000);
-}x
+}
 
 /**
  * Print the time performance for both array and BST in certain looping times.
