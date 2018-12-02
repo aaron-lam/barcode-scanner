@@ -31,18 +31,19 @@ int main(int argc, char** argv) {
         upc = info.substr(0, info.find(','));
         list.push_back(upc);
     }
-    // test array and bst performance based on different number of looping times.
-    testPerformance(arrayScanner, bstScanner, list, 10);
-    testPerformance(arrayScanner, bstScanner, list, 100);
-    testPerformance(arrayScanner, bstScanner, list, 1000);
+    // test the performance based on different number of looping times.
+    for (int i = 100; i <= 1000; i += 100) {
+        testPerformance(arrayScanner, bstScanner, list, i);
+    }
 }
 
 /**
  * Print the time performance for both array and BST in certain looping times.
  */
 void testPerformance(BarcodeArrayScanner& arrayScanner, BarCodeBSTScanner& bstScanner, vector<string>& list, int loopTimes) {
-    clock_t arrayTotalTime = clock();
-    clock_t bstTotalTime = clock();
+    clock_t startClock = clock();
+    clock_t arrayTotalTime = startClock;
+    clock_t bstTotalTime = startClock;
 
     cout << "Now search " << loopTimes << " times:" << endl;
     for (int i = 0; i < loopTimes; i++) {
@@ -59,6 +60,9 @@ void testPerformance(BarcodeArrayScanner& arrayScanner, BarCodeBSTScanner& bstSc
         arrayTotalTime += arrayTimer;
         bstTotalTime += bstTimer;
     }
+
+    arrayTotalTime -= startClock;
+    bstTotalTime -= startClock;
 
     cout << "Time taken of searching " << loopTimes << " times in BST:   " << bstTotalTime << " milliseconds" << endl;
     cout << "Time taken of searching " << loopTimes << " times in array: " << arrayTotalTime << " milliseconds\n" << endl;
