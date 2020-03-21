@@ -1,6 +1,6 @@
-# BarcodeScanner
+# Barcode Scanner
 
-BarcodeScanner is an application for searching barcode with upc number.
+Barcode Scanner is an application for searching barcode with upc number.
 
 We use this application to test the time performance of two data structures, array and binary search tree.
 
